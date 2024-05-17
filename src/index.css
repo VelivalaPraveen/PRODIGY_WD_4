@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  position: relative;
+  background-color:none;
+  background-color:beige;
+}
+.heading{
+  width:10%;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  width: 100%;
+  height: auto;
+  border:2px solid;
+  padding-bottom: 15px;
+  padding-left:50px;
+  
+}
+.nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:10px;
+  margin-left: 550px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration-color:black;
+}
+.nav a{
+  text-decoration-color: black;
+  margin-left:20px;
+}
+.portfolio{
+  width:20%;
+}
+.details{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: rows
+}
+.context-details{
+  width: 50%;
+  height: auto;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.context{
+  font-size:30px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+.Skills{
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  margin-left:20px;
+}
+.Skills-style{
+  font-size:40px;
+}
+.about-skills{
+  font-size: 30px;
+  padding-top:15px;
+  display: flex;
+  flex-direction: column;
+  margin-left:50px;
+  padding-bottom:10px;
+  width:30%;
+}
+.about-skills meter{
+  display: flex;
+  flex-direction: row;
+}
+.projects{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  margin-left:20px;
+  padding-top:20px;
+  margin-bottom:20px;
+}
+.project-heading{
+  font-size:40px;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+.about-projects{
+  font-size: 30px;
+  padding-top:15px;
+  display: flex;
+  flex-direction: column;
+  margin-left:50px;
+  padding-bottom:10px;
+}
+.card-hospital{
+  width:33%;
+  height: auto;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin-left:15px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+.card-hospital:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.card-stopwatch{
+  width:33%;
+  height: auto;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin-left:20px;
+  padding-top:50px;
+  margin-top: 20px;
+
+}
+.card-stopwatch:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.card-weather{
+  width:33%;
+  height: auto;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin-left:15px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+.card-weather:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.About-heading{
+  font-size:40px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+.About-styling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:10px;
+  font-size:30px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}  
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Email{
+  margin-left:40px;
+}
+.linked-in{
+  margin-left: 30px;
+}
+.card-personal{
+  width:33%;
+  height:55vh;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin-left:15px;
+  padding-top: 50px;
+  margin-top: 20px;
+  border:2px solid;
+  border-radius:10%;
+  
+}
+.image-personal{
+  width:33%;
+  height:auto;
+  border-radius:30%;
+  opacity: 6;
+}
+.image{
+  width:33%;
+  height: auto;
+}
